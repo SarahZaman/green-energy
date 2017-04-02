@@ -1,0 +1,240 @@
+/* Colour Codes
+#01A14B - Green
+#CAD800 - Lime
+#FFFFFF - White 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #01A14B;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    color: #FFF;
+    text-shadow: 1px 0 0 #CAD800, -1px 0 0 #CAD800, 0 1px 0 #CAD800, 0 -1px 0 #CAD800, 1px 1px #CAD800, -1px -1px 0 #CAD800, 1px -1px 0 #CAD800, -1px 1px 0 #CAD800;
+    margin-top: 2rem;
+    margin-left: 45%;
+}
+
+#main-title {
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 1px 0 0 #CAD800, -1px 0 0 #CAD800, 0 1px 0 #CAD800, 0 -1px 0 #CAD800, 1px 1px #CAD800, -1px -1px 0 #CAD800, 1px -1px 0 #CAD800, -1px 1px 0 #CAD800;
+    font-family: 'Francois One', sans-serif;
+    letter-spacing: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav {
+    margin-top: 2rem
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    width: 100%;
+    height: 2rem;
+    background-color: #FFF;
+    border-bottom: 4px solid #CAD800;  
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #01A14B;
+    font-family: 'News Cycle', sans-serif; 
+}
+
+.mh-image {
+    opacity: 0;
+    transition: visibility 0s 1s, opacity 2s linear;
+}
+
+.mh-image img {
+    width: 100%;
+    height: 15rem;
+}
+
+figcaption {
+    color: #FFF;
+    font-family: 'News Cycle', sans-serif; 
+    font-size: 0.618rem;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    color: #FFF;
+    margin-bottom: 2rem;
+}
+
+main div ul {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.solutions {
+    display: inline;
+    
+}
+
+.btn {
+    height: 4rem;
+    background-color: #CAD800;
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Francois One', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container img {
+    width: 100%;
+}
+
+.socialmedia {
+    text-align: center;
+}
+
+.social {
+    color: #fff; 
+    padding-left: 0.5rem;
+}
+
+hr {
+    margin-top: 1rem;
+    border-top: none;
+}
+
+.company-info {
+    text-align: center;
+    color: #CAD800;
+    font-family: 'News Cycle', sans-serif;
+    padding-bottom: 1rem;
+}
+
+p {
+    font-size: 0.618rem;
+}
+
+/* TABLET */
+@media screen and (min-width: 30rem) and (max-width: 60rem) {
+    
+    #prime {
+        position: relative;
+        left: 40px;
+    }
+
+    ul li {
+        display: inline;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .mh-image img {
+        width: 100%;
+        height: 25rem;
+    }
+    
+    .container img {
+        float: left;
+        width: 47%; 
+        padding-right: 3%;
+        margin-bottom: 2rem;
+    }
+
+    .container figcaption {
+        float: left;
+        width: 47%;
+        padding-left: 3%;
+        margin-bottom: 2rem;
+    }
+
+    .socialmedia {
+        text-align: center;
+        clear: both;
+    }
+    
+    p, figcaption {
+        font-size: 1rem;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 60rem) and (max-width: 100rem) {
+    
+    h3 {
+        text-align: left;
+        font-family: 'Francois One', sans-serif;
+        color: #FFF;
+        margin-bottom: 2rem;
+        margin-left: 4%;
+        font-size: 1.618rem;
+    }
+    
+    #prime {
+        position: relative;
+        left: 40px; 
+    }
+
+    ul li {
+        display: inline;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    
+    .mh-image img {
+        width: 100%;
+        height: 35rem;
+    }
+    
+    main div ul {
+        margin-bottom: 2rem;
+        float: left;
+        width: 15%;
+    }
+    
+    .solutions {
+        display: block;
+        margin-bottom: 1.5rem;
+        
+    }
+    
+    .container img {
+        float: left;
+        width: 40%; 
+        padding-right: 3%;
+        margin-bottom: 2rem;
+    }
+
+    .container figcaption {
+        float: left;
+        width: 40%;
+        padding-left: 3%;
+        margin-bottom: 2rem;
+    }
+
+    .socialmedia {
+        text-align: center;
+        clear: both;
+    }
+    
+    p, figcaption {
+        font-size: 1.618rem;
+    }
